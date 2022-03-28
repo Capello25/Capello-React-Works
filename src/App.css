@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.lb1form{
+  margin: 2% 0% 0% 0%;
+}
+.clsForm{
+  padding: 1% 30% 0% 30%;
+}
+.HomeTitle{
+height:10vh;
+background-color: blueviolet;
+color: white;
+text-align: center;
+margin: 0% 0% 1% 0% ;
+padding: 1% 0% 0% 0% ;
+}
+.stateclass{
+  margin: 0% 0% 1% 0% ;
+  color:mediumslateblue;
+}
+
+.cap{
+  color:maroon;
+  background-color: bisque;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
